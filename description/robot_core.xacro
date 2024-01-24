@@ -29,9 +29,9 @@
 
     <link name="chasis">
         <visual>
-            <origin xyz="0.15 0 0.075"/>
+            <origin xyz="0.3 0 0.075"/>
             <geometry>
-                <box_size="0.6 0.6 0.15"/>
+                <box size="0.6 0.6 0.15"/>
             </geometry>
             <material name="white"/>
         </visual>
