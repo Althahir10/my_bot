@@ -67,6 +67,8 @@
                 <cylinder radius ="0.05" length="0.04"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.02">
+            <orgin xyz="0"
     </link>
     
     <joint name="right_wheel_joint" type="continous">
