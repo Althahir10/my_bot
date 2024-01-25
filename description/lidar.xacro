@@ -7,6 +7,17 @@
     </joint>
 
     <link name="laser_frame">
+        <visual> 
+            <geometry>
+                <cylinder radius ="0.05" length="0.04"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision> 
+            <geometry>
+                <cylinder radius ="0.05" length="0.04"/>
+            </geometry>
+        </collision>
 
     </link>
 
