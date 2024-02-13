@@ -56,7 +56,7 @@
                 <box size ="0.822 0.8 0.622"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="0.822" x="0.8" y="0.8" z="0.622">
+        <xacro:inertial_box mass="0.5" x="0.8" y="0.3" z="0.3">
             <origin xyz="-0.411 0 0.311" rpy="0 0 0"/>
         </xacro:inertial_box> 
     </link>
