@@ -21,6 +21,8 @@
                         <state_interface name="velocity"/>
                         <state_interface name="position"/>
                 </joint>
+
+                <!-- might need to add more for other wheels -->
         </ros2_control>
 
         <gazebo>
