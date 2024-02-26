@@ -22,7 +22,7 @@
                         <state_interface name="position"/>
                 </joint>
 
-                <!-- might need to add more for other wheels -->
+                <!-- might need to add more four other wheels -->
         </ros2_control>
 
         <gazebo>
