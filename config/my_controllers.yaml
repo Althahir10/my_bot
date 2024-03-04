@@ -10,7 +10,7 @@ controller_manager:
       type: joint_state_broadcaster/JointStateBroadcaster
 
 diff_cont:
-  ros_parameters:
+  ros__parameters:
 
     publish_rate: 50.0
 
