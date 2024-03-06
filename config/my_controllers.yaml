@@ -1,5 +1,5 @@
 controller_manager:
-  ros_parameters:
+  ros__parameters:
     update_rate: 30
     use_sim_time: true
 
@@ -10,7 +10,7 @@ controller_manager:
       type: joint_state_broadcaster/JointStateBroadcaster
 
 diff_cont:
-  ros_parameters:
+  ros__parameters:
 
     publish_rate: 30.0 # You can set this higher than the controller manager update rate, but it will be throttled
     base_frame_id: base_link
